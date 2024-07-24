@@ -2,9 +2,9 @@ forward_euler_only 1
 celltype 0
 bcl 2000
 beats 10
-dtw 0.5
+dtw 10.
 time_point 25
 min_dt 0.005
-max_dt 0.05
+max_dt 1.0
 drug_name bepridil
 conc 33.0

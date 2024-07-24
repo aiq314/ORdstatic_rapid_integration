@@ -1068,7 +1068,7 @@ void Ohara_Rudy_2011::solveAnalytical(double dt)
 }
 
 void Ohara_Rudy_2011::solveEuler(double dt){
-  for (int i = 0; i < states_size - 1; i++){
+  for (int i = 0; i < states_size; i++){
     STATES[i] = STATES[i] + RATES[i] * dt;
   }
   
